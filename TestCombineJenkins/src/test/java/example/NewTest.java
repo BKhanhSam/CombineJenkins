@@ -14,6 +14,7 @@ public class NewTest {
 		driver.get("http://demo.guru99.com/test/guru99home/");
 		String title = driver.getTitle();
 		Assert.assertTrue(title.contains("Demo Guru99 Page"));
+	  	System.out.println("Display");
   }
   @BeforeMethod
   public void beforeMethod() {
